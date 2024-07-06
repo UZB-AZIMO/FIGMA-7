@@ -8,20 +8,7 @@
     height: 71px;
 display: flex;
 justify-content: space-between;
-.btn{
-    border-radius: 20px;
-    background-color: $bg-py;
-    border: none;
-    font-size: 20px;
-    color: white;
-    width: 140px;
-    height: 50px;
-    margin-top: 10px;
-    transition: 1s;
-    &:hover{
-background-color: #FFA63A;
-    }
-   } 
+
   .logo__bag{
     margin-top: 25px;
    display: flex;
@@ -45,3 +32,31 @@ background-color: #FFA63A;
     cursor:pointer;
     
 }
+.btnn{
+    border-radius: 20px;
+    background-color: $bg-py;
+    border: none;
+    font-size: 20px;
+    color: white;
+    width: 140px;
+    height: 50px;
+    margin-top: 10px;
+    &:hover{
+background-color: #FFA63A;
+    }
+   } 
+
+
+
+
+
+@media ( max-width:820px){
+    .header{
+       
+      
+    }
+.navbar__collection{
+    display: none;
+}
+    
+    }

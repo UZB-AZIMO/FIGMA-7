@@ -62,3 +62,34 @@
         }
     }
 }
+
+
+
+
+
+
+@media ( max-width:820px){
+    .hero{
+        text-align: center;
+        &__wrapper{
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 40px;
+        }
+        &__card{
+            width: 100%;
+            margin-top: 180px;
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+@media ( max-width:450px){
+    .hero{
+        text-align: left;}}

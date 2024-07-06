@@ -4,6 +4,8 @@
     padding: 50px 0;
     &__wrapper{
         display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
        justify-content: space-around;
     }
     &__card{
@@ -51,4 +53,52 @@ cursor: pointer;
   &:hover{
     color: blue;
   }
+}
+
+
+
+
+@media ( max-width:720px){
+    .footer{
+text-align: left;
+    }
+}
+
+
+
+
+@media ( max-width:550px){
+    .footer{
+        &__wrapper{
+           flex-direction: column;
+            gap: 30px;
+        }
+        &__card{
+            max-width: 100%;
+           }
+    }
+}
+
+
+.omad{
+    text-align: center;
+    padding: 100px 0px 0 0;
+    height: 70vh;
+    background: url("/IMG/fon.png")no-repeat center/cover;
+    background-color: blanchedalmond;
+}
+
+.omad__btn{
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: none;
+border-radius: 20px;
+    color:red;
+    background-color: black;
+    font-size: 25px;
+    transition: 1s;
+    &:hover{
+background-color:gold;
+color: blue;
+    }
 }
