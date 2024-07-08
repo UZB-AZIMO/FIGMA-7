@@ -22,3 +22,12 @@ setInterval(()=>{
     omad__btn.removeAttribute("disabled")
 }, 2500)
 })
+
+
+
+const sidebar = document .querySelector("sidebare")
+
+
+function sidebarOpen(){
+    sidebar.classList.toggle("show")
+}

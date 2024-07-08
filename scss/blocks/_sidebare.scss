@@ -1,0 +1,10 @@
+.sidebare{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: black;
+    transition: .5s;
+    left: -280px;
+}
