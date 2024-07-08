@@ -93,3 +93,15 @@
 @media ( max-width:450px){
     .hero{
         text-align: left;}}
+
+
+        
+@media ( max-width:340px){
+    .hero{
+
+    }
+    .btns{
+        margin-top: 20px;
+        background-color: $bg-py;
+        color: white;}
+}
