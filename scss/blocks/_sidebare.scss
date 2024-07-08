@@ -7,16 +7,38 @@
     background-color: black;
     transition: .5s;
     left: -280px;
+    font-size: 20px;
     color: wheat;
+    padding:  20px;
 }
+
 
 .sidebare.show{
     left: 0;
 }
 
 
+.but{
+    border-radius: 50%;
+  
+}
+.fa-xmark{
+    font-size: 20px;
+background-color: white;
+text-align: right;
+padding: 10px;
+border-radius: 50%;
+transition: .5s;
+&:hover{
+    background-color: gold;
+}
+}
 
 
+.cop{
+    width: 100%;
+    text-align: right;
+}
 
 
 
