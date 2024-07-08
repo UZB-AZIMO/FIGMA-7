@@ -2,6 +2,16 @@
     padding: 0 20px;
     background:url("/IMG/fon.png")no-repeat center/cover;
     background-color: $bg-py;
+    position: static;
+    top: 0;
+    left: 0;
+    transition: .9s;
+}
+.header.shrink{
+    background-color: #08556cd8;
+    color: black;
+    
+
 }
 .navbar{
     width: 100%;

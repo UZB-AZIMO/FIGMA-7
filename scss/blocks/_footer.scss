@@ -101,3 +101,19 @@ background-color:gold;
 color: blue;
     }
 }
+
+.bag{
+    margin-top: 200px;
+   
+}
+
+.bbtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s;
+    &:hover{
+        background-color: red;
+        color:white;
+    }
+}
