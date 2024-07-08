@@ -3,12 +3,12 @@ const omad__btn = document.querySelector(".omad__btn")
 
 
 const TEL__NUMBER =[
-    "+998 99 825 55 19",
-    "+998 99 825 56 13",
-    "+998 99 825 45 18",
-    "+998 99 825 95 16",
-    "+998 99 825 52 17",
-    "+998 99 825 21 15" ,
+    "+998 90 486 55 19",
+    "+998 33 664 56 13",
+    "+998 55 566 45 18",
+    "+998 88 978 95 16",
+    "+998 94 194 52 17",
+    "+998 98 051 21 15" ,
 ]
 
 omad__btn.addEventListener("click",()=>{
@@ -24,10 +24,3 @@ setInterval(()=>{
 })
 
 
-
-const sidebar = document .querySelector("sidebare")
-
-
-function sidebarOpen(){
-    sidebar.classList.toggle("show")
-}
